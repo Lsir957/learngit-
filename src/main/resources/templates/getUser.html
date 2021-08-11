@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/getUser}" method="post">
+    查找用户：<input type="text" name="id"><br>
+    <input type="submit"  value="提交"><br>
+</form>
+</body>
+</html>
